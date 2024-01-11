@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.back {
+    background: linear-gradient(rgb(38, 55, 62) 50%, rgb(205, 205, 205) 50%);
+}
+
+.backg:nth-child(1) {
+    background: linear-gradient(rgb(197, 76, 123) 50%, rgb(255, 255, 255) 50%);
+}
+
+.backg:nth-child(2) {
+    background: linear-gradient(rgb(255, 67, 67) 50%, rgb(255, 255, 255) 50%);
+}
+
+.backg:nth-child(3) {
+    background: linear-gradient(rgb(24, 35, 39) 50%, rgb(255, 255, 255) 50%);
+}
+
+.shoes{
+    rotate: -45deg; 
+    object-fit: cover;
+    object-position: center;
+}
